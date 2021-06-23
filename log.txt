@@ -1,0 +1,56 @@
+2021-06-22 21:41:37.971  INFO 8860 --- [main] com.unico.UnicoTesteApplication          : Starting UnicoTesteApplication using Java 11.0.10 on DESKTOP-7HC2UI5 with PID 8860 (C:\Users\paulo\training\unico-teste\target\classes started by paulo in C:\Users\paulo\training\unico-teste)
+2021-06-22 21:41:37.976  INFO 8860 --- [main] com.unico.UnicoTesteApplication          : No active profile set, falling back to default profiles: default
+2021-06-22 21:41:39.394  INFO 8860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-22 21:41:39.512  INFO 8860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2021-06-22 21:41:40.808  INFO 8860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-22 21:41:40.829  INFO 8860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-22 21:41:40.830  INFO 8860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-22 21:41:41.017  INFO 8860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-22 21:41:41.018  INFO 8860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2964 ms
+2021-06-22 21:41:41.074  INFO 8860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-22 21:41:41.243  INFO 8860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-22 21:41:41.255  INFO 8860 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-06-22 21:41:41.662  INFO 8860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-22 21:41:41.736  INFO 8860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-22 21:41:41.881  INFO 8860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-22 21:41:42.033  INFO 8860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-22 21:41:42.685  INFO 8860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-22 21:41:42.698  INFO 8860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-22 21:41:43.428  WARN 8860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-22 21:41:43.634  INFO 8860 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-22 21:41:44.005  INFO 8860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-22 21:41:44.007  INFO 8860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-22 21:41:44.036  INFO 8860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-22 21:41:44.089  INFO 8860 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-22 21:41:44.371  INFO 8860 --- [main] com.unico.UnicoTesteApplication          : Started UnicoTesteApplication in 7.106 seconds (JVM running for 7.829)
+2021-06-22 21:41:47.316  INFO 8860 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-22 21:41:47.323  INFO 8860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-22 21:41:47.329  INFO 8860 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-22 21:48:16.724  INFO 8572 --- [main] com.unico.UnicoTesteApplication          : Starting UnicoTesteApplication using Java 11.0.10 on DESKTOP-7HC2UI5 with PID 8572 (C:\Users\paulo\training\unico-teste\target\classes started by paulo in C:\Users\paulo\training\unico-teste)
+2021-06-22 21:48:16.729  INFO 8572 --- [main] com.unico.UnicoTesteApplication          : No active profile set, falling back to default profiles: default
+2021-06-22 21:48:20.006  INFO 8572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-22 21:48:20.263  INFO 8572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interfaces.
+2021-06-22 21:48:22.484  INFO 8572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-22 21:48:22.507  INFO 8572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-22 21:48:22.511  INFO 8572 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-22 21:48:22.820  INFO 8572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-22 21:48:22.821  INFO 8572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5735 ms
+2021-06-22 21:48:22.930  INFO 8572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-22 21:48:23.343  INFO 8572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-22 21:48:23.359  INFO 8572 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-06-22 21:48:24.209  INFO 8572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-22 21:48:24.338  INFO 8572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-22 21:48:24.776  INFO 8572 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-22 21:48:25.323  INFO 8572 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-22 21:48:26.709  INFO 8572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-22 21:48:26.726  INFO 8572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-22 21:48:28.343  WARN 8572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-22 21:48:28.700  INFO 8572 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-06-22 21:48:29.324  INFO 8572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-22 21:48:29.325  INFO 8572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-06-22 21:48:29.384  INFO 8572 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-06-22 21:48:29.455  INFO 8572 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-06-22 21:48:29.804  INFO 8572 --- [main] com.unico.UnicoTesteApplication          : Started UnicoTesteApplication in 14.277 seconds (JVM running for 15.646)
+2021-06-22 21:48:33.367  INFO 8572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-22 21:48:33.369  INFO 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-22 21:48:33.375  INFO 8572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms

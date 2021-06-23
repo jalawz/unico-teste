@@ -1,6 +1,7 @@
 package com.unico.mapper;
 
 import com.unico.dto.FeiraRequestDTO;
+import com.unico.dto.FeiraResponseDTO;
 import com.unico.model.Feira;
 
 public class FeiraMapper {
@@ -23,6 +24,28 @@ public class FeiraMapper {
                 .registro(dto.getRegistro())
                 .setcens(dto.getSetcens())
                 .subPrefeitura(dto.getSubPrefeitura())
+                .build();
+    }
+
+    public static FeiraResponseDTO toResponseDto(Feira model) {
+        return FeiraResponseDTO.builder()
+                .areaP(model.getAreaP())
+                .bairro(model.getBairro())
+                .id(model.getId())
+                .codDist(model.getCodDist())
+                .codigoSubPrefeitura(model.getCodigoSubPrefeitura())
+                .distrito(model.getDistrito())
+                .nomeFeira(model.getNomeFeira())
+                .latitude(model.getLatitude())
+                .logradouro(model.getLogradouro())
+                .longitude(model.getLongitude())
+                .numero(model.getNumero())
+                .referencia(model.getReferencia())
+                .regiao5(model.getRegiao5())
+                .regiao8(model.getRegiao8())
+                .registro(model.getRegistro())
+                .setcens(model.getSetcens())
+                .subPrefeitura(model.getSubPrefeitura())
                 .build();
     }
 }
